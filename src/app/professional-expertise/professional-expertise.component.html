@@ -1,0 +1,16 @@
+<div class="container"  >
+    <h1 class="t-center">Nice to see you again, {{person.firstName}}!</h1>
+    <div class="container w-75 m-auto bg-light sh-1">
+        <h2 class=" t-center pt-1">Portofolio</h2>
+        
+        <app-profile-picture [activeAccount] = "activeAccount"></app-profile-picture>
+        <span class="p-1 fs-2 ml-3">Highschool:</span>
+        <p class="p-1 fs-1 ml-3">{{person.highschoolName}}</p>
+
+        <span class="p-1 fs-2 ml-3">College:</span>
+        <p class="p-1 fs-1 ml-3">{{person.collegeName}}</p>
+
+        <span class="p-1 fs-2 ml-3">Work Experience:</span>
+        <p class="p-1 fs-1 ml-3">{{person.workDone}}</p>
+    </div>
+</div>
